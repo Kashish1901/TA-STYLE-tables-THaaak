@@ -156,15 +156,16 @@ blockquote{
 .header-heading strong{
 	color: var(--primary);
 }
-.nav-links li{
+.nav-links li a{
+	color: white;
 	font-size: 23px;
 	padding-left: 20px;
 	font-weight: 500;
 }
-.nav-links li:hover{
+.nav-links li a:hover{
 	color: var(--primary);
 }
-.active{
+.active {
 	color: var(--primary);
 }
 /* Hero */
